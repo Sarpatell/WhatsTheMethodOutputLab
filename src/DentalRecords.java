@@ -30,7 +30,7 @@ public class DentalRecords {
         System.out.print("\n(P)rint, (E)xtract, (R)oot, e(X)it          : ");
         menuOption = keyboard.next().charAt(0);
 
-//----Check if menu choice is valid
+//----Check if menu option is valid
         while (menuOption != 'X' && menuOption != 'x') {
             switch (menuOption) {
                 case 'P':
